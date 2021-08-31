@@ -1,0 +1,189 @@
+@media screen and (max-width: 1400px) {
+    .section-header {
+        height: 100vh;
+        background-image: url('../bg/ori.jpg');
+    }
+
+    .header {
+        padding: 10px 82px;
+    }
+
+    .header-promo-info {
+        padding-top: 120px;
+    }
+
+    .nav,
+    .contact-btn {
+        display: none;
+    }
+
+    .wrapper-burger-btn {
+        display: flex;
+    }
+
+    .footer {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header-promo-info {
+        padding-top: 100px;
+    }
+
+    .header {
+        padding: 10px 42px;
+    }
+
+    .services-text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .services-card-img img {
+        width: calc(100% - 5%)
+    }
+
+    .self-card {
+        min-height: 340px;
+    }
+
+}
+
+
+@media screen and (max-width: 992px) {
+    .wrapper-clutch {
+        width: 80%;
+    }
+
+    .wrapper-footer {
+        flex-direction: column;
+    }
+
+    .wrapper-footer-nav {
+        column-gap: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .wrapper-clutch {
+        width: 90%;
+    }
+
+    .clutch-btn {
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .section-services {
+        padding: 0 10px;
+    }
+
+    .services-discr {
+        flex-direction: column;
+    }
+
+    .services-card-img {
+        text-align: center;
+    }
+
+    .services-discr:nth-child(2n) {
+        flex-direction: column-reverse;
+    }
+
+    .services-discr-title h3 {
+        text-align: center;
+    }
+
+    .services-text {
+        text-align: center;
+    }
+
+    .contact-item {
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 6px;
+        padding: 10px 10px;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    .header {
+        padding: 10px 10px;
+    }
+
+    .header-promo-info {
+        padding-top: 80px;
+    }
+
+    .socil-networks {
+        display: none;
+    }
+
+    .wrapper-clutch {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .clutch-btn {
+        margin-top: 20px;
+    }
+
+    .wrapper-tehno-logo {
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .section-looking {
+        background-color: #276ED8;
+        padding: 50px 0px;
+        min-height: 400px;
+    }
+
+    .looking-title {
+        font-size: 36px;
+    }
+
+    .partners-card {
+        width: 100%;
+    }
+
+    .wrapper-footer-nav {
+        flex-direction: column;
+    }
+    .footer{
+        background-color: #194484;
+        padding-top: 50px;
+    }
+    
+    .wrapper-footer{
+        padding: 0px 50px;
+    }
+
+}
+
+
+@media screen and (max-width: 414px) {
+    .header-promo-info {
+        padding-top: 50px;
+    }
+
+    .promo-title {
+        font-size: 30px;
+    }
+
+    .promo-text {
+        margin-top: 16px;
+        letter-spacing: 1.2px;
+    }
+}
